@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# Logs and output
+output.xml
+log.html
+report.html
+webhook_logs/
+
+# IDE files
+.idea/
+.vscode/
+
+# ngrok and cache
+*.log
