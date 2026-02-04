@@ -18,3 +18,7 @@ webhook_logs/
 
 # ngrok and cache
 *.log
+
+Results/
+allure-results/
+allure-report/
