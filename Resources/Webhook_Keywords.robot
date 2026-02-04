@@ -8,7 +8,8 @@ Library    Process
 *** Variables ***
 ${WEBHOOK_PORT}      5000
 ${WEBHOOK_LOG_FILE}  ${CURDIR}/../webhook_logs/webhook_data.json
-
+${CLIENT_ID}        %{CLIENT_ID}
+${CLIENT_SECRET}    %{CLIENT_SECRET}
 
 *** Keywords ***
 

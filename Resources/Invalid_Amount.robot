@@ -2,6 +2,12 @@
 Library    RequestsLibrary
 Resource   ../config/testdata.robot
 
+
+
+*** Variables ***
+${CLIENT_ID}        %{CLIENT_ID}
+${CLIENT_SECRET}    %{CLIENT_SECRET}
+
 *** Keywords ***
 
 Validate Invalid Payment Request
